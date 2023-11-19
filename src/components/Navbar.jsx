@@ -10,7 +10,7 @@ const Navbar = () => {
 const [nav,setnav]=useState(false)
 
   return (
-    <div className="bg-neutral-900 text-white flex justify-between p-4">
+    <div className="bg-black text-white flex justify-between p-4">
       <div className="flex justify-center items-center gap-2">
         <div className="cursor-pointer">
           <AiOutlineMenu size={30} onClick={()=>{setnav(!nav)}}/>
@@ -19,8 +19,8 @@ const [nav,setnav]=useState(false)
           BEST <span className="text-yellow-300  font-bold">FOODS</span>
         </h1>
         <div className=" hidden lg:flex ml-3 bg-white text-black rounded-2xl text-[14px] font-medium">
-          <p className="bg-neutral-500 rounded-2xl py-2 px-1">Delivery</p>
-          <p className="py-2 px-1 rounded-2xl ">Pickup</p>
+          <p className=" rounded-2xl py-2 px-1">Delivery</p>
+          <p className="py-2 px-1 rounded-2xl bg-yellow-300">Pickup</p>
         </div>
       </div>
 
