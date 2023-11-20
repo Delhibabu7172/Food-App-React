@@ -9,7 +9,7 @@ const Catergory = () => {
       <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 m-6 p-0 sm:p-4'>
       {categories.map(({id,name,image}) => {
             return <div key={id} className='border bg-purple-200 flex justify-center items-center rounded-xl'>
-             <h1 className='font-bold mr-4 lg:mr-8'>{name}</h1>
+             <h1 className='font-bold text-xs lg:text-base mx-2 lg:mr-8'>{name}</h1>
                <img src={image} alt="" className='w-20' />
             </div>
         })}

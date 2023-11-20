@@ -51,7 +51,7 @@ const [nav,setnav]=useState(false)
         "fixed top-0  left-[-100%] w-[300px] h-screen bg-white text-black duration-300"
       }>
             <div className="bg-black text-white"> 
-            <h1 className="my-auto sm-text-2xl lg:text-3xl p-4">
+            <h1 className="my-auto text-xl sm-text-2xl lg:text-3xl p-4">
               BEST <span className="text-yellow-300  font-bold">FOODS</span>
             </h1>
             <AiOutlineClose onClick={()=>setnav(!nav)} className="absolute top-5 cursor-pointer right-4"  size={20}/>
