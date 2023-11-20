@@ -25,13 +25,13 @@ const [nav,setnav]=useState(false)
       </div>
 
       <div className="flex">
-        <div className="text-black  flex w-[200px] sm-w-[300px] lg:w-[400px] border-none bg-gray-200  px-2 py-2 rounded-full items-center ">
+        <div className="text-black  flex w-[180px] sm-w-[300px] lg:w-[400px] border-none bg-gray-200  px-2 py-2 rounded-full items-center ">
           <AiOutlineSearch
             className="my-auto cursor-pointer mr-2 text-black"
             size={18}
           />
           <input
-            className="bg-gray-200 border-none outline-none"
+            className="bg-gray-200 border-none outline-none w-[100px]"
             type="text"
             placeholder="Search Foods..."
           />
